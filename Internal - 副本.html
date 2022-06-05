@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="T">
+    <title>Internal</title>
+    <style type="text/css">
+        body {
+            background-image: url(images/internalbackground.png);
+            background-repeat: repeat;
+            background-position: bottom;
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Bosch Office Sans';
+        }
+        .header {
+            line-height: 100px;
+            background-color: deepskyblue;
+            font-size: 70px;
+            color: white;
+            border-radius: 5px;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flex-container2 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .flex-container > div {
+            width: 200px;
+            height: 40px;
+            margin-left: 80px;
+            margin-top: 15px;
+            padding: 10px;
+            color: black;
+            background-color: azure;
+            border-radius: 10px;
+            font-size: 30px;
+        }
+        .special {
+            font-size: 15px;
+        }
+        .flex-container2 > div {
+            width: 200px;
+            height: 40px;
+            margin-left: 80px;
+            margin-top: 15px;
+            padding: 10px;
+            color: black;
+            background-color: azure;
+            border-radius: 10px;
+            font-size: 30px;
+    </style>
+</head>
+<body>
+    <header class="header">Dashboard</header>
+    <div class="flex-container">
+        <div>Mission</div>
+        <div>Introduction</div>
+        <div>Organization</div>
+        <div>KPI</div>
+        <div>Dept.Meeting</div>
+        <div>System CIP</div>
+        <div>Standard</div>
+        <div>LEAN</div>
+        <div>Competence</div>
+        <div class="special">Digital Transformation</div>
+        <div>Archive</div>
+        <div>ISA</div>
+    </div>
+    <div class="flex-container2">
+        <div>12</div>
+        <div>13</div>
+        <div>19</div>
+
+    </div>
+
+</body>
+</html>
