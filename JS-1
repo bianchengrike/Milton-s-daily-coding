@@ -1,0 +1,6 @@
+//This is an inline comment
+/*This is a 
+muti-line comment*/
+var myName
+var myVar;
+myVar = 8;
