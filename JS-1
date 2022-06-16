@@ -5,6 +5,7 @@ muti-line comment*/
 var myName
 var myVar;
 myVar = 8;
+
 //JS-2
 var someVariable;
 var anotherVariableName;
@@ -16,3 +17,10 @@ const myVar = 12 + 12;
 let myVar = 1;
 myVar++;//等于myVar = myVar + 1 ;
 myVar--;//等于myVar = myVar - 1 ;
+
+//2022-06-16
+//创建小数
+var myDecimal = 1.1;
+//小数相乘
+const product = 1.0 * 2.0;
+const quotient = 4.4 / 2.0;
