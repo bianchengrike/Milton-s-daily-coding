@@ -46,8 +46,10 @@ a *= 5;
 let a = 48;
 //要求a=4
 a /= 12;
-
-
+//2022-06-22 转义字符串中的引号
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."
+//用单引号引用字符串
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 
 
