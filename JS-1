@@ -51,8 +51,18 @@ const myStr = "I am a \"double quoted\" string inside \"double quotes\"."
 //用单引号引用字符串
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 //06-24 转义字符
-
-
+\'	单引号
+\"	双引号
+\\	反斜杠
+\n	换行符
+\r	回车符
+\t	制表符
+\b	退格
+\f	换页符
+const myStr ="FirstLine\n\t\\SecondLine\nThirdLine";
+FirstLine
+    \SecondLine
+ThirdLine
 
 
 
