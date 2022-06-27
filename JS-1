@@ -63,6 +63,14 @@ const myStr ="FirstLine\n\t\\SecondLine\nThirdLine";
 FirstLine
     \SecondLine
 ThirdLine
+//2022-06-27
+用加号运算符连接字符串
+const myStr = "This is the start. " + "This is the end.";
+用 += 运算符连接字符串
+let myStr= "This is the first sentence. ";
+myStr+= "This is the second sentence.";
+//输出：This is the first sentence. This is the second sentence.
+用变量构造字符串
 
 
 
