@@ -81,6 +81,7 @@ const anAdjective = "awesome!";
 let ourStr = "freeCodeCamp is ";
 ourStr += anAdjective;
 ourStr 值为 freeCodeCamp is awesome!
+//07-01 Find the Length of a String
 
 
 
