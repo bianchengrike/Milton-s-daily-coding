@@ -82,7 +82,9 @@ let ourStr = "freeCodeCamp is ";
 ourStr += anAdjective;
 ourStr 值为 freeCodeCamp is awesome!
 //07-01 Find the Length of a String
-
-
+在字符串变量或字符串后面写上 .length 来获得 String 的长度。
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
 
 
