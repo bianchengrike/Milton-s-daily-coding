@@ -86,5 +86,16 @@ ourStr 值为 freeCodeCamp is awesome!
 let lastNameLength = 0;
 const lastName = "Lovelace";
 lastNameLength = lastName.length;
+//07-18使用方括号查找字符串中的第一个字符
+const firstName = "Charles";
+const firstLetter = firstName[0];
+firstLetter 值为字符串 C 
+
+
+
+
+
+
+
 
 
