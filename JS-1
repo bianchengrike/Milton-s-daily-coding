@@ -90,6 +90,16 @@ lastNameLength = lastName.length;
 const firstName = "Charles";
 const firstLetter = firstName[0];
 firstLetter 值为字符串 C 
+// 07-19 了解字符串的不变性
+let myStr = "Bob";
+myStr[0] = "J";
+是不会把变量 myStr 的值改变成 Job 的，因为变量 myStr 是不可变的。 
+注意，这并不意味着 myStr 永远不能被改变，只是字符串字面量 string literal 的各个字符不能被改变。 改变 myStr 的唯一方法是重新给它赋一个值，例如：
+let myStr = "Bob";
+myStr = "Job";
+const firstName = "Ada";
+const secondLetterOfFirstName = firstName[1];
+secondLetterOfFirstName 值应该为字符串 d。
 
 
 
