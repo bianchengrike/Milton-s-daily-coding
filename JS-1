@@ -106,8 +106,8 @@ const lastLetter = firstName[firstName.length - 1];
 lastLetter 值为字符串 a
 使用方括号查找字符串中的倒数第 N 个字符
 例如，你可以使用 firstName[firstName.length - 3] 获取 const firstName = "Augusta" 字符串的倒数第三个字母的值
-
-
+//07-22 Mad Libs 游戏
+使用字符串连接运算符 + 来拼接字符串变量：myNoun、myAdjective、myVerb 和 myAdverb 来构建一个新字符串。 然后，将新字符串赋给 wordBlanks 变量
 
 
 
