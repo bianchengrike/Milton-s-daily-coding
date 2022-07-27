@@ -109,6 +109,21 @@ lastLetter 值为字符串 a
 //07-22 Mad Libs 游戏
 使用字符串连接运算符 + 来拼接字符串变量：myNoun、myAdjective、myVerb 和 myAdverb 来构建一个新字符串。 然后，将新字符串赋给 wordBlanks 变量
 //07-24 
+//07-27 填词造句
+It was really ____, and we ____ ourselves ____。
+const sentence = "It was really " + "hot" + ", and we " + "laughed" + " ourselves " + "silly" + ".";
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+// 只修改这一行下面的代码
+const wordBlanks = "The" + " " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + "."; // 修改这一行
+// 只修改这一行上面的代码
+使用 JavaScript 数组将多个值存储在一个变量中
+使用数组（array），我们可以在一个地方存储多个数据。
+const myArray = ["j", 22];
+将一个数组嵌套在另一个数组中
+
 
 
 
