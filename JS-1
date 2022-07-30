@@ -123,7 +123,8 @@ const wordBlanks = "The" + " " + myAdjective + " " + myNoun + " " + myVerb + " "
 使用数组（array），我们可以在一个地方存储多个数据。
 const myArray = ["j", 22];
 将一个数组嵌套在另一个数组中
-
+07-30
+const teams = [["Bulls", 23], ["White Sox", 45]];
 
 
 
