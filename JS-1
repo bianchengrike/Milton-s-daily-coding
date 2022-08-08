@@ -190,7 +190,18 @@ function functionWithArgs(a, b) {
 }
 functionWithArgs(1, 2)
 08-07 使用 return 给函数返回值
+08-08 
+function plusThree(num) {
+  return num + 3;
+}
 
+const answer = plusThree(5);
+answer 的值为 8。
+function timesFive(num) {
+  return num *5;
+}
+
+const answer = timesFive(5);
 
 
 
