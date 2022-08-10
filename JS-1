@@ -202,9 +202,16 @@ function timesFive(num) {
 }
 
 const answer = timesFive(5);
+08-10 全局作用域和函数
+局部作用域和函数
+function myTest() {
+  const loc = "foo";
+  console.log(loc);
+}
 
-
-
+myTest();
+console.log(loc);
+myTest() 函数调用将在控制台中显示字符串 foo。
 
 
 
