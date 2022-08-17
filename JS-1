@@ -223,6 +223,13 @@ function myFun() {
   return someVar;
 }
 函数 myFun 将会返回字符串 Head，因为局部变量的优先级更高。
+08-17 函数也可以返回 undefined
+函数一般用 return 语句来返回值，但这不是必须的。 在函数没有 return 语句的情况下，当你调用它时，该函数会执行内部代码，返回的值是 undefined
+let sum = 0;
 
+function addSum(num) {
+  sum = sum + num;
+}
 
+addSum(3);
 
