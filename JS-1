@@ -237,8 +237,14 @@ addSum(3);
 假设我们有一个预先定义的函数 sum ，它将两个数相加，然后：
 ourSum = sum(5, 12);
 将调用 sum 函数，该函数返回 17 的值并将其分配给 ourSum 变量。
-
-
+08-19 调用 processArg 函数，参数为 7，然后把返回的值赋值给变量 processed。
+// 设置
+let processed = 0;
+function processArg(num) {
+  return (num + 3) / 5;
+}
+// 只修改这一行下面的代码
+processed = processArg(7);
 
 
 
