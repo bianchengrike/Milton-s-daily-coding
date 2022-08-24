@@ -263,7 +263,14 @@ const testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
+08-24 理解布尔值 布尔（Boolean） 布尔值只能是两个值中的一个：true 或者 false。 它非常像电路开关，true 是 “开”，false 是 “关”。 这两种状态是互斥的。
+function welcomeToBooleans() {
+  // 只修改这一行下面的代码
 
+  return true; // 修改这一行
+
+  // 只修改这一行上面的代码
+}
 
 
 
