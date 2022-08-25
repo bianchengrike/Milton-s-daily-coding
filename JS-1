@@ -271,6 +271,25 @@ function welcomeToBooleans() {
 
   // 只修改这一行上面的代码
 }
+08-25 用 if 语句来表达条件逻辑.if 语句用于在代码中做出决定.关键字 if 告诉 JavaScript 在小括号中的条件为真的情况下去执行定义在大括号里面的代码。
+这种条件被称为 Boolean 条件，因为他们只可能是 true（真）或 false（假）。
+当条件的计算结果为 true，程序执行大括号内的语句。 当布尔条件的计算结果为 false，大括号内的代码将不会执行。
+if（条件为真）{
+语句被执行
+}
+在函数内部创建一个 if 语句，如果该参数 wasThatTrue 值为 true，返回 Yes, that was true，否则，返回No, that was false。
+function trueOrFalse(wasThatTrue) {
+  // 只修改这一行下面的代码
+  if (wasThatTrue) {
+    return "Yes, that was true";
+  }
+  return "No, that was false";
+}
+  // 只修改这一行上面的代码
+
+
+
+
 
 
 
