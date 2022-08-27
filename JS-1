@@ -286,7 +286,8 @@ function trueOrFalse(wasThatTrue) {
   return "No, that was false";
 }
   // 只修改这一行上面的代码
-
+08-27 JavaScript 中，有很多 相互比较的操作。 所有这些操作符都返回一个 true 或 false 值。
+最基本的运算符是相等运算符：== 不同于赋值运算符（=），赋值运算符是把等号右边的值赋给左边的变量
 
 
 
