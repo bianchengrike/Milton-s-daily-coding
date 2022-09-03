@@ -316,6 +316,18 @@ function trueOrFalse(wasThatTrue) {
 '3' < 7 // true
 5   < 5 // false
 使用小于等于运算符（<=）比较两个数字的大小
+09-03  逻辑与运算符
+有时你需要在一次判断中做多个操作。 当且仅当运算符的左边和右边都是 true，逻辑与运算符（&&）才会返回 true。
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+return "No";
+
+
+
+
+
+
 
 
 
