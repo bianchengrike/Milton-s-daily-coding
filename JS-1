@@ -322,6 +322,32 @@ if (num > 5 && num < 10) {
   return "Yes";
 }
 return "No";
+09-04 逻辑或运算符
+只要逻辑或运算符（||）两边的任何一个运算的结果是 true，则返回 true。 否则，返回 false。
+逻辑或运算符由两个竖线（||）组成。 这个按键位于退格键和回车键之间
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+当 num 大于等于 5 或小于等于 10 时，函数才返回 Yes
+else 语句
+当 if 语句的条件为真，会执行大括号里的代码。 那如果条件为假呢？ 正常情况下什么也不会发生。 使用 else 语句，可以执行当条件为假时相应的代码。
+if (num > 10) {
+  return "Bigger than 10";
+} else {
+  return "10 or Less";
+}
+如果你有多个条件语句，你可以通过 else if 语句把 if 语句链起来。
+if (num > 15) {
+  return "Bigger than 15";
+} else if (num < 5) {
+  return "Smaller than 5";
+} else {
+  return "Between 5 and 15";
+}
+
+
+
 
 
 
